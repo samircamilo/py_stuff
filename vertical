@@ -1,0 +1,30 @@
+#function chaos
+def chaos():
+	return 'Eu quero ver o caos' 
+
+#data input
+word = input('Escreve qq coisa: \n')
+
+#caos mode
+if word == ('caos'):
+		word = chaos()
+
+#vertical mode
+word = list(word)
+for w in word:
+	print(w)
+
+
+input('\n\nDaora ou nem? Vai, dá <Enter> e some da minha frente, cão!')
+
+# alternate version
+
+#function chaos
+#def chaos():
+#	global word
+#	word = 'Eu quero ver o caoooosss'
+#	return 
+
+#caos mode
+#if word == ('caos'):
+#		chaos()
