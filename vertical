@@ -3,7 +3,7 @@ def chaos():
 	return 'Eu quero ver o caos' 
 
 #data input
-word = input('Escreve qq coisa: \n')
+word = input('Jot something down \n')
 
 #caos mode
 if word == ('caos'):
@@ -15,16 +15,4 @@ for w in word:
 	print(w)
 
 
-input('\n\nDaora ou nem? Vai, dá <Enter> e some da minha frente, cão!')
-
-# alternate version
-
-#function chaos
-#def chaos():
-#	global word
-#	word = 'Eu quero ver o caoooosss'
-#	return 
-
-#caos mode
-#if word == ('caos'):
-#		chaos()
+input('\n\nPress anything to escape the chaos!')
